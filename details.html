@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Cosmetic Store Web Page" />
+  <meta property="og:description"
+    content="Cristian Ines (MephistoDevelop) - Full Stack Web Developer Personal Portfolio" />
+  <meta property="og:image" content="https://avatars0.githubusercontent.com/u/19605034?s=460&v=4" />
+  <meta property="og:url" content="https://mephistodevelop.github.io/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@MephistoDevelop" />
+  <meta name="twitter:creator" content="@MephistoDevelop" />
+  <link rel="stylesheet" href="./assets/styles/styles.css" />
+  <script src="https://kit.fontawesome.com/d08a51000b.js" crossorigin="anonymous"></script>
+  <title>Moni Cosmetic Store</title>
+</head>
+
+<body>
+  <div id="navbar-container">
+    <div id="logo-container">Moni Cosmetics</div>
+    <div id="menu-container">
+      <a href="/index.html"><i id="home-icon" class="fas fa-home icons"></i> Home</a>
+      <a><i class="far fa-list-alt icons"></i>Products</a>
+      <a><i class="fas fa-shopping-cart icons"></i> Shop Cart</a>
+      <input id="nav-button" type="button" value="See More">
+    </div>
+    <div id="user-container">
+      <i class="fas fa-envelope"></i>
+      <span id="username" class="icons">MephistoDevelop</span>
+      <img id="user-image" alt="user image" src="/assets/images/ines2.png" />
+    </div>
+    <div id="hamburguer"><i class="fas fa-bars"></i></div>
+  </div>
+  <div id="main-container">
+    <div id="search-container">
+      <div id="search-header" class="header-container">MONI COSMETICS</div>
+      <div id="subtitle">The best products to stay cute</div>
+      <div id="search-form">
+        <select id="cbx-categories">
+          <option>Brusshes</option>
+          <option>Concealer</option>
+          <option>Shadows</option>
+          <option>Make up</option>
+        </select>
+        <input id="input-search" type="text" placeholder="Search Products">
+        <input id="btn-search" type="button" value="Search"></div>
+    </div>
+
+    <div id="colums-container">
+
+      <div id="filter-column">
+        <div class="filter-header">Categories</div>
+        <div class="checkboxcontainer">
+          <ul>
+            <li class="d-flex"><input type="checkbox">
+              <span>Shadows</span>
+            </li>
+            <li class="d-flex"><input type="checkbox">
+              <span>Concealer</span>
+            </li>
+            <li class="d-flex"><input type="checkbox">
+              <span>Lipsticks</span>
+            </li>
+          </ul>
+        </div>
+        <div class="filter-header">Categories</div>
+        <div class="checkboxcontainer">
+          <ul>
+            <li class="d-flex"><input type="checkbox">
+              <span>Shadows</span>
+            </li>
+            <li class="d-flex"><input type="checkbox">
+              <span>Concealer</span>
+            </li>
+            <li class="d-flex"><input type="checkbox">
+              <span>Lipsticks</span>
+            </li>
+          </ul>
+        </div>
+        <div class="filter-header">Categories</div>
+        <div class="checkboxcontainer">
+          <ul>
+            <li class="d-flex"><input type="checkbox">
+              <span>Shadows</span>
+            </li>
+            <li class="d-flex"><input type="checkbox">
+              <span>Concealer</span>
+            </li>
+            <li class="d-flex"><input type="checkbox">
+              <span>Lipsticks</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="products-column">
+        <div class="d-flex hover-hot-details">
+          <img class="img-top-details" src="./assets//images/shadow-palette2.jpg" alt="Make Up">
+          <div class="description-top-container-details">
+            <div class="top-header">
+              Mercury Eyeshadow Palette </div>
+            <div class="top-description-details">Embark on a new journey through space with the HUDA BEAUTY Mercury
+              Retrograde eyeshadow palette.
+
+              This palette will take you to infinity and beyond with 18 incredible galactic inspired colors and
+              textures to deliver infinite possibilities.</div>
+            <div class="top-button-container-details">
+              <button type="button" class="hot-button-price">$85</button>
+              <button class="hot-button-cart" onclick="window.location.href='/details.html'">
+                <i class="fas fa-shopping-cart icons"> </i>Purchase
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex hover-hot-details">
+          <img class="img-top-details" src="./assets//images/shadow-palette.jpg" alt="Make Up">
+          <div class="description-top-container-details">
+            <div class="top-header">
+              Mercury Eyeshadow Palette </div>
+            <div class="top-description-details">Embark on a new journey through space with the HUDA BEAUTY Mercury
+              Retrograde eyeshadow palette.
+
+              This palette will take you to infinity and beyond with 18 incredible galactic inspired colors and
+              textures to deliver infinite possibilities.</div>
+            <div class="top-button-container-details">
+              <button type="button" class="hot-button-price">$85</button>
+              <button class="hot-button-cart" onclick="window.location.href='/details.html'">
+                <i class="fas fa-shopping-cart icons"> </i>Purchase
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex hover-hot-details">
+          <img class="img-top-details" src="./assets//images/lotion.jpg" alt="Make Up">
+          <div class="description-top-container-details">
+            <div class="top-header">
+              Mercury Eyeshadow Palette </div>
+            <div class="top-description-details">Embark on a new journey through space with the HUDA BEAUTY Mercury
+              Retrograde eyeshadow palette.
+
+              This palette will take you to infinity and beyond with 18 incredible galactic inspired colors and
+              textures to deliver infinite possibilities.</div>
+            <div class="top-button-container-details">
+              <button type="button" class="hot-button-price">$85</button>
+              <button class="hot-button-cart" onclick="window.location.href='/details.html'">
+                <i class="fas fa-shopping-cart icons"> </i>Purchase
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex hover-hot-details">
+          <img class="img-top-details" src="./assets//images/82166618_220792715580503_1138787458725445632_n.jpg"
+            alt="Make Up">
+          <div class="description-top-container-details">
+            <div class="top-header">
+              Body Lotion </div>
+            <div class="top-description-details">Resultado de imagen para body lotion descriptionmakeupandbeauty.com
+              A lotion is a low-viscosity topical preparation intended for application to the skin. ... While a lotion
+              may be used as a medicine delivery system, many lotions, especially hand lotions and body lotions are
+              meant instead to simply smooth, moisturize, soften and perhaps perfume the skin.</div>
+            <div class="top-button-container-details">
+              <button type="button" class="hot-button-price">$85</button>
+              <button class="hot-button-cart" onclick="window.location.href='/details.html'">
+                <i class="fas fa-shopping-cart icons"> </i>Purchase
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex hover-hot-details">
+          <img class="img-top-details" src="./assets//images/92617305_271006877225753_4283745633082277888_n.jpg"
+            alt="Make Up">
+          <div class="description-top-container-details">
+            <div class="top-header">
+              Lipstick Huxia Beauty </div>
+            <div class="top-description-details">Embark on a new journey through space with the HUDA BEAUTY Mercury
+              Retrograde eyeshadow palette.
+
+              This palette will take you to infinity and beyond with 18 incredible galactic inspired colors and
+              textures to deliver infinite possibilities.</div>
+            <div class="top-button-container-details">
+              <button type="button" class="hot-button-price">$85</button>
+              <button class="hot-button-cart" onclick="window.location.href='/details.html'">
+                <i class="fas fa-shopping-cart icons"> </i>Purchase
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div id="footer-container" class=" d-flex">
+      <div id="logo-footer">MONI COSMETICS</div>
+      <div id="footer-links-container">
+        <div id="footer-links-header">CATEGORIES</div>
+        <ul>
+          <li><a href="#">Lipsticks</a></li>
+          <li><a href="#">Brushes</a></li>
+          <li><a href="">Skin</a></li>
+          <li><a href="">Eyes</a></li>
+          <li><a href="">Skin Care</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="copyrigth-container">Copyrigth 2020 MephistoDevelop, All Righs Reserved.</div>
+  </div>
+</body>
+
+</html>

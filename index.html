@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Cosmetic Store Web Page" />
+  <meta property="og:description"
+    content="Cristian Ines (MephistoDevelop) - Full Stack Web Developer Personal Portfolio" />
+  <meta property="og:image" content="https://avatars0.githubusercontent.com/u/19605034?s=460&v=4" />
+  <meta property="og:url" content="https://mephistodevelop.github.io/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@MephistoDevelop" />
+  <meta name="twitter:creator" content="@MephistoDevelop" />
+  <link rel="stylesheet" href="./assets/styles/styles.css" />
+  <script src="https://kit.fontawesome.com/d08a51000b.js" crossorigin="anonymous"></script>
+  <title>Moni Cosmetic Store</title>
+</head>
+
+<body>
+  <div id="navbar-container">
+    <div id="logo-container">Moni Cosmetics</div>
+    <div id="menu-container">
+      <a><i id="home-icon" class="fas fa-home icons"></i> Home</a>
+      <a><i class="far fa-list-alt icons"></i>Products</a>
+      <a><i class="fas fa-shopping-cart icons"></i> Shop Cart</a>
+      <input id="nav-button" type="button" value="See More">
+    </div>
+    <div id="user-container">
+      <i class="fas fa-envelope"></i>
+      <span id="username" class="icons">MephistoDevelop</span>
+      <img id="user-image" alt="user" src="/assets/images/ines2.png" />
+    </div>
+    <div id="hamburguer"><i class="fas fa-bars"></i></div>
+  </div>
+  <div id="main-container">
+    <div id="search-container">
+      <div id="search-header" class="header-container">MONI COSMETICS</div>
+      <div id="subtitle">The best products to stay cute</div>
+      <div id="search-form">
+        <select id="cbx-categories">
+          <option>Brusshes</option>
+          <option>Concealer</option>
+          <option>Shadows</option>
+          <option>Make up</option>
+        </select>
+        <input id="input-search" type="text" placeholder="Search Products">
+        <input id="btn-search" type="button" value="Search" onclick="window.location.href='/details.html'"></div>
+    </div>
+    <div id="slider-container">
+      <div id="hotest-header">HOT ADS</div>
+      <div class="slider">
+        <div class="slides">
+          <div class="slides-cards" id="slide-1">
+            <div class="d-flex hover-hot">
+              <img class="img-top" src="./assets//images/shadow-palette.jpg" alt="Make Up">
+              <div class="description-top-container">
+                <div class="top-header">
+                  Mercury Eyeshadow Palette </div>
+                <div class="top-description">Embark on a new journey through space with the HUDA BEAUTY Mercury
+                  Retrograde eyeshadow palette.
+
+                  This palette will take you to infinity and beyond with 18 incredible galactic inspired colors and
+                  textures to deliver infinite possibilities.</div>
+                <div class="top-button-container">
+                  <input type="button" class="hot-button-price" value="$35">
+                  <button class="hot-button-cart" onclick="window.location.href='/details.html'">
+                    <i class="fas fa-shopping-cart icons"> </i>Purchase
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slides-cards" id="slide-2">
+            <div class="d-flex">
+              <img class="img-top" src="./assets//images/farsali.jpg" alt="Make Up">
+              <div class="description-top-container">
+                <div class="top-header">Farsali White Colagen</div>
+                <div class="top-description">24K Gold is a natural mineral used that helps skin look radiant and gives
+                  it a natural glow. Beneficial for all skin types. It is widely known that products created with
+                  Rosehip Seed Oil have many benefits on the skin. This ingredient reduces the appearance of fine lines
+                  by deeply moisturizing the skin.</div>
+                <div class="top-button-container">
+                  <input type="button" class="hot-button-price" value="$35">
+                  <button class="hot-button-cart">
+                    <i class="fas fa-shopping-cart icons"> </i>Purchase
+                  </button>
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </div>
+          <div class="slides-cards" id="slide-3">
+            <div class="d-flex">
+              <img class="img-top" src="./assets//images/glter.jpg" alt="Make Up">
+              <div class="description-top-container">
+                <div class="top-header">Gliter Gel For Eyes</div>
+                <div class="top-description">Set of Beautiful gliter colors from eyes</div>
+                <div class="top-button-container">
+                  <input type="button" class="hot-button-price" value="$35">
+                  <button class="hot-button-cart">
+                    <i class="fas fa-shopping-cart icons"> </i>Purchase
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slides-cards" id="slide-4">
+            <div class="d-flex">
+              <img class="img-top" src="./assets//images/one.jpg" alt="Make Up">
+              <div class="description-top-container">
+                <div class="top-header">16PZS LABIAL LÍQUIDO HEDY BEAUTY PLUMP</div>
+                <div class="top-description">Set of Beautiful colors from lipsticks</div>
+                <div class="top-button-container">
+                  <input type="button" class="hot-button-price" value="$35">
+                  <button class="hot-button-cart">
+                    <i class="fas fa-shopping-cart icons"> </i>Purchase
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slides-cards" id="slide-5">
+            <div class="d-flex">
+              <img class="img-top" src="./assets//images/76689026_1185243505197775_7179814116243013632_n.jpg"
+                alt="Make Up">
+              <div class="description-top-container">
+                <div class="top-header">HudaBeauty Concealer</div>
+                <div class="top-description">What it is: A full-coverage, creamy concealer that is packed with skincare
+                  actives and a cooling zamac tip. What Else You Need to Know: This creamy formula is infused with green
+                  tea, helping to improve signs of discoloration and stress, while also protecting the skin against
+                  external hazards and discoloration.</div>
+                <div class="top-button-container">
+                  <input type="button" class="hot-button-price" value="$35">
+                  <button class="hot-button-cart">
+                    <i class="fas fa-shopping-cart icons"> </i>Purchase
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="slider-nums-container">
+          <a class="slider-nums" href="#slide-1">1</a>
+          <a class="slider-nums" href="#slide-2">2</a>
+          <a class="slider-nums" href="#slide-3">3</a>
+          <a class="slider-nums" href="#slide-4">4</a>
+          <a class="slider-nums" href="#slide-5">5</a>
+        </div>
+      </div>
+    </div>
+    <div id="colums-container">
+      <div class="d-flex w-100">
+        <div id="products-container" class="d-flex w-100 col">
+          <div class="d-flex w-100 product-header">
+            <i class="fas fa-paint-brush icons-products"></i>Concealers
+          </div>
+          <div class="d-flex cards-container">
+            <div class="column-container d-flex w-50">
+              <div class="card w-50">
+                <div>
+                  <img class="img-card" src="./assets//images/concealer-palette2.jpg" alt="Make Up">
+                </div>
+                <div class="card-div">
+                  <div style="height: 125px;">
+                    <div class="header-card">
+                      <p>Concealer Palette Mac </p>
+                    </div>
+                    <div class="description-card">
+                      an eye palette developed by m∙a∙c pro artists in 12 intensely pigmented neutrals.
+                    </div>
+                  </div>
+                  <div class="price-card">
+                    <i class="far fa-plus-square plus-card"></i>
+                    <span class="price">$ 85</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card w-50">
+                <div>
+                  <img class="img-card" src="./assets//images/82166618_220792715580503_1138787458725445632_n.jpg"
+                    alt="Make Up">
+                </div>
+                <div class="card-div">
+                  <div style="height: 125px;">
+                    <div class="header-card">
+                      <p>Roses Lotion Saniye </p>
+                    </div>
+                    <div class="description-card">
+                      It's a weather from rose that help you to get a soften skin.
+                    </div>
+                  </div>
+                  <div class="price-card">
+                    <i class="far fa-plus-square plus-card"></i>
+                    <span class="price">$ 45</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column-container d-flex w-50">
+              <div class="card w-50">
+                <div>
+                  <img class="img-card" src="./assets//images/93383799_1326577767731014_5505048798067425280_o.jpg"
+                    alt="Make Up">
+                </div>
+                <div class="card-div">
+                  <div style="height: 125px;">
+                    <div class="header-card">
+                      <p>Roses Lotion Saniye </p>
+                    </div>
+                    <div class="description-card">
+                      It's a weather from rose that help you to get a soften skin.
+                    </div>
+                  </div>
+                  <div class="price-card">
+                    <i class="far fa-plus-square plus-card"></i>
+                    <span class="price">$ 17</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card w-50">
+                <div>
+                  <img class="img-card" src="./assets//images/92617305_271006877225753_4283745633082277888_n.jpg"
+                    alt="Make Up">
+                </div>
+                <div class="card-div">
+                  <div style="height: 125px;">
+                    <div class="header-card">
+                      <p>Lipsticks Vaious Tones</p>
+                    </div>
+                    <div class="description-card">
+                      It's a weather from rose that help you to get a soften skin.
+                    </div>
+                  </div>
+                  <div class="price-card">
+                    <i class="far fa-plus-square plus-card"></i>
+                    <span class="price">$ 12</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex w-100 product-header">
+            <img src="./assets/images/shadows.png" alt="Shadows" class="header-icon"> Skin
+          </div>
+          <div class="d-flex cards-container">
+            <div class="column-container d-flex w-50">
+              <div class="card w-50 col">
+                <div>
+                  <img class="img-card" src="./assets//images/89540167_254992428827198_1300165344429604864_n.jpg"
+                    alt="Make Up">
+                </div>
+                <div class="card-div">
+                  <div style="height: 125px;">
+                    <div class="header-card">
+                      <p>Goldzan 24K</p>
+                    </div>
+                    <div class="description-card">
+                      Gold in your skin,colagen to care your skin
+                    </div>
+                  </div>
+                  <div class="price-card">
+                    <i class="far fa-plus-square plus-card"></i>
+                    <span class="price">$ 34</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card w-50 col">
+                <div>
+                  <img class="img-card" src="./assets//images/82397745_220792698913838_8595909217926250496_n.jpg"
+                    alt="Make Up">
+                </div>
+                <div class="card-div">
+                  <div style="height: 125px;">
+                    <div class="header-card">
+                      <p>Huxia Beauty Lipstick </p>
+                    </div>
+                    <div class="description-card">
+                      Beautiful rose tone to your lips.
+                    </div>
+                  </div>
+                  <div class="price-card">
+                    <i class="far fa-plus-square plus-card"></i>
+                    <span class="price">$ 5</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column-container d-flex w-50">
+              <div class="card w-50">
+                <div>
+                  <img class="img-card" src="./assets//images/84841758_2573895062828497_4662852719738880000_n.jpg"
+                    alt="Make Up">
+                </div>
+                <div class="card-div">
+                  <div style="height: 125px;">
+                    <div class="header-card">
+                      <p>Shadow Palette 24 tones</p>
+                    </div>
+                    <div class="description-card">
+                      Beautiful shadows tones to your eyes.
+                    </div>
+                  </div>
+                  <div class="price-card">
+                    <i class="far fa-plus-square plus-card"></i>
+                    <span class="price">$ 22</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card w-50">
+                <div>
+                  <img class="img-card" src="./assets//images/one.jpg" alt="Make Up">
+                </div>
+                <div class="card-div">
+                  <div style="height: 125px;">
+                    <div class="header-card">
+                      <p>Roses Lotion Saniye </p>
+                    </div>
+                    <div class="description-card">
+                      It's a weather from rose that help you to get a soften skin.
+                    </div>
+                  </div>
+                  <div class="price-card">
+                    <i class="far fa-plus-square plus-card"></i>
+                    <span class="price">$ 35</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex w-100 product-header">
+            <img src="./assets/images/creams.png" class="header-icon" alt="creams">Make Up
+          </div>
+          <div class="d-flex cards-container">
+            <div class="column-container d-flex w-50">
+
+              <div class="card w-50">
+                <div>
+                  <img class="img-card" src="./assets//images/83913581_2573894989495171_7360562678114287616_n.jpg"
+                    alt="Make Up">
+                </div>
+                <div class="card-div">
+                  <div style="height: 125px;">
+                    <div class="header-card">
+                      <p>Palette with various tones </p>
+                    </div>
+                    <div class="description-card">
+                      Beutiful tones to your eyes.
+                    </div>
+                  </div>
+                  <div class="price-card">
+                    <i class="far fa-plus-square plus-card"></i>
+                    <span class="price">$ 18</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card w-50">
+                <div>
+                  <img class="img-card" src="./assets//images/83854663_552439715362132_3047048862926635008_n.jpg"
+                    alt="Make Up">
+                </div>
+                <div class="card-div">
+                  <div style="height: 125px;">
+                    <div class="header-card">
+                      <p>White Rice Colagen </p>
+                    </div>
+                    <div class="description-card">
+                      Colagen with rice to care your skin.
+                    </div>
+                  </div>
+                  <div class="price-card">
+                    <i class="far fa-plus-square plus-card"></i>
+                    <span class="price">$ 15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column-container d-flex w-50">
+              <div class="card w-50">
+                <div>
+                  <img class="img-card" src="./assets//images/77152896_1179934272395365_991061994155016192_n.jpg"
+                    alt="Make Up">
+                </div>
+                <div class="card-div">
+                  <div style="height: 125px;">
+                    <div class="header-card">
+                      <p>Roses Lotion Saniye </p>
+                    </div>
+                    <div class="description-card">
+                      Makeup Mac with the best tones and pigment on the market.
+                    </div>
+                  </div>
+                  <div class="price-card">
+                    <i class="far fa-plus-square plus-card"></i>
+                    <span class="price">$ 14</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card w-50">
+                <div>
+                  <img class="img-card" src="./assets//images/80120095_216157766043998_5306093448921612288_n.jpg"
+                    alt="Make Up">
+                </div>
+                <div class="card-div">
+                  <div style="height: 125px;">
+                    <div class="header-card">
+                      <p>Lotion Saniye </p>
+                    </div>
+                    <div class="description-card">
+                      It's a weather from rose that help you to get a soften skin.
+                    </div>
+                  </div>
+
+                  <div class="price-card">
+                    <i class="far fa-plus-square plus-card"></i>
+                    <span class="price">$ 35</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div id="footer-container" class=" d-flex">
+      <div id="logo-footer">MONI COSMETICS</div>
+      <div id="footer-links-container">
+        <div id="footer-links-header">CATEGORIES</div>
+        <ul>
+          <li><a href="#">Lipsticks</a></li>
+          <li><a href="#">Brushes</a></li>
+          <li><a href="">Skin</a></li>
+          <li><a href="">Eyes</a></li>
+          <li><a href="">Skin Care</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="copyrigth-container">Copyrigth 2020 MephistoDevelop, All Righs Reserved.</div>
+  </div>
+</body>
+
+</html>
